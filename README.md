@@ -1,5 +1,9 @@
 # esp-idf-lib/sht4x
 
+[![Build examples](https://github.com/esp-idf-lib/sht4x/actions/workflows//build.yml/badge.svg)](https://github.com/esp-idf-lib/sht4x/actions/workflows//build.yml)
+[![Build docs](https://github.com/esp-idf-lib/sht4x/actions/workflows//build-docs.yml/badge.svg)](https://github.com/esp-idf-lib/sht4x/actions/workflows//build-docs.yml)
+[![Validation](https://github.com/esp-idf-lib/sht4x/actions/workflows//validate-component.yml/badge.svg)](https://github.com/esp-idf-lib/sht4x/actions/workflows//validate-component.yml)
+
 Driver for Sensirion SHT40/SHT41/SHT45 digital temperature and humidity sensor.
 
 * [Documentation](https://esp-idf-lib.github.io/sht4x/)
@@ -11,7 +15,7 @@ Driver for Sensirion SHT40/SHT41/SHT45 digital temperature and humidity sensor.
 ## Installation
 
 ```sh
-idf.py add-dependency esp-idf-lib/sht4x^1.0.0
+idf.py add-dependency esp-idf-lib/sht4x
 ```
 
 ## Support
