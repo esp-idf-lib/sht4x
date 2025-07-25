@@ -22,5 +22,5 @@ menu "Example configuration"
 
     endchoice
 
-    rsource "../../../../devtools/Kconfig.i2c"
+    rsource "../../../Kconfig.i2c"
 endmenu
