@@ -11,7 +11,7 @@ Driver for Sensirion SHT40/SHT41/SHT45 digital temperature and humidity sensor.
 ## Installation
 
 ```sh
-idf.py add-dependency "esp-idf-lib/sht4x^1.0.0
+idf.py add-dependency esp-idf-lib/sht4x^1.0.0
 ```
 
 ## Support
