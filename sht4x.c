@@ -146,7 +146,7 @@ static inline esp_err_t read_res_nolock(sht4x_t *dev, sht4x_raw_data_t res)
     CHECK(i2c_dev_read(&dev->i2c_dev, NULL, 0, res, SHT4X_RAW_DATA_SIZE));
 
     ESP_LOGD(TAG, "Got response %02x %02x %02x %02x %02x %02x",
-            res[0], res[1], res[2], res[3], res[4], res[5]);
+             res[0], res[1], res[2], res[3], res[4], res[5]);
 
     if (res[2] != crc8(res, 2) || res[5] != crc8(res + 3, 2))
     {
@@ -190,7 +190,7 @@ static inline bool is_measuring(sht4x_t *dev)
 {
     // not running if measurement is not started
     if (!dev->meas_started)
-      return false;
+        return false;
 
     // not running if time elapsed is greater than duration
     uint64_t elapsed = esp_timer_get_time() - dev->meas_start_time;
