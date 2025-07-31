@@ -1,5 +1,5 @@
 ---
-version: 1.0.5
+version: 1.0.6
 description: Driver for Sensirion SHT40/SHT41/SHT45 digital temperature and humidity sensor
 license: BSD-3
 targets:
