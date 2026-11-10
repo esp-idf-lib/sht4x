@@ -13,7 +13,7 @@ measurement every 5 seconds.  In this example it starts the measurement, waits
 for the results and fetches the results using separate functions
 
 Choose either `CONFIG_EXAMPLE_SHT4X_DEMO_HL` or `CONFIG_EXAMPLE_SHT4X_DEMO_LL`
-in `make menuconfig` under `Example configuration`. The default is
+in `idf.py menuconfig` under `Example configuration`. The default is
 `CONFIG_EXAMPLE_SHT4X_DEMO_HL`.
 
 ## Wiring
